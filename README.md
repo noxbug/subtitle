@@ -5,3 +5,11 @@ Install using:
 ```python
 $ pip3 install googletrans
 ```
+## usage
+The example below shows how to use the library.
+```python
+from subtitle.subtitle import Subtitle
+
+subtitle = Subtitle()
+subtitle.translate('subs.srt')
+```
